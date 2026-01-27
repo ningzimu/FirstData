@@ -1021,6 +1021,7 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
   <a href="#-快速开始">快速开始</a> •
   <a href="#-如何贡献">如何贡献</a> 
 </p>
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=MLT-OSS/FirstData&type=date&legend=top-left)](https://www.star-history.com/#MLT-OSS/FirstData&type=date&legend=top-left)
