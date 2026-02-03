@@ -1,14 +1,18 @@
 # FirstData 🌐
 
+**[English](README.en.md)** | 中文
+
+---
+
 **全球最全面、最权威、最结构化的开源数据源知识库**
 
 **The World's Most Comprehensive, Authoritative, and Structured Open Data Source Repository**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![数据源数量](https://img.shields.io/badge/数据源-126%2F1000+-blue.svg)](firstdata/sources/README.md)
-[![完成进度](https://img.shields.io/badge/进度-13%25-yellow.svg)](firstdata/sources/README.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![数据源数量](https://img.shields.io/badge/数据源-132%2F1000+-blue.svg)](tasks/README.md)
+[![完成进度](https://img.shields.io/badge/进度-13%25-yellow.svg)](ROADMAP.md)
 [![权威性](https://img.shields.io/badge/权威性-政府与国际组织优先-brightgreen.svg)](#)
-[![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](#-快速开始)
+[![MCP服务器](https://img.shields.io/badge/MCP-AI智能搜索-purple.svg)](firstdata-mcp/)
 
 ---
 
@@ -70,32 +74,34 @@
 
 | 类别                   | 数量                  | 覆盖内容                                  |
 | ---------------------- | --------------------- | ----------------------------------------- |
-| 🌍**国际组织**   | 28 / 100+             | 世界银行、IMF、OECD、WHO、FAO...          |
-| 🇨🇳**中国** | 19 / 500+             | 人民银行、国家统计局、海关总署、证监会... |
-| 🌎**各国官方**   | 24 / 200+             | 美国、加拿大、日本、英国、澳大利亚...     |
+| 🌍**国际组织**   | 33 / 100+             | 世界银行、IMF、OECD、WHO、FAO...          |
+| 🇨🇳**中国政府** | 19 / 500+             | 人民银行、国家统计局、海关总署、证监会... |
+| 🌎**各国官方**   | 25 / 200+             | 美国、加拿大、日本、英国、澳大利亚...     |
 | 🎓**学术机构**   | 26 / 100+             | NBER、Penn World Table、PubMed...         |
 | 🏭**行业领域**   | 29 / 100+             | 能源、金融、健康、气候...                 |
-| **合计**         | **126 / 1000+** | **完成度13%**                       |
+| **合计**         | **132 / 1000+** | **完成度13%**                       |
 
 ### 已完成数据源 | Completed Sources
 
-#### 🌍 国际组织 (28个)
+#### 🌍 国际组织 (33个)
 
-📄 **详细信息**: [firstdata/sources/international/README.md](firstdata/sources/international/README.md)
+📄 **详细信息**: [sources/international/README.md](sources/international/README.md)
 
 #### 🇨🇳 中国数据源 (19个)
 
-📄 **详细信息**: [firstdata/sources/china/README.md](firstdata/sources/china/README.md)
-#### 🌎 各国官方 (24个)
+📄 **详细信息**: [sources/china/README.md](sources/china/README.md)
 
-📄 **详细信息**: [firstdata/sources/countries/README.md](firstdata/sources/countries/README.md)
+#### 🌎 各国官方 (25个)
+
+📄 **详细信息**: [sources/countries/README.md](sources/countries/README.md)
 
 #### 🎓 学术研究 (26个)
 
-📄 **详细信息**: [firstdata/sources/academic/README.md](firstdata/sources/academic/README.md)
+📄 **详细信息**: [sources/academic/README.md](sources/academic/README.md)
+
 #### 🏭 行业领域 (29个)
 
-📄 **详细信息**: [firstdata/sources/sectors/README.md](firstdata/sources/sectors/README.md)
+📄 **详细信息**: [sources/sectors/README.md](sources/sectors/README.md)
 
 ### 质量保证：确保每个数据源都是可信底座
 
@@ -142,7 +148,7 @@
 - `commercial` - 商业机构
 - `other` - 其他
 
-**完整Schema**: 查看 [firstdata/schemas/datasource-schema.json](firstdata/schemas/datasource-schema.json)
+**完整Schema**: 查看 [schemas/datasource-schema.json](schemas/datasource-schema.json)
 
 ## 🎯FirstData MCP
 
@@ -988,7 +994,7 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
 
   **推荐流程：**
 
-1. 提交Issue，说明数据源信息和推荐理由
+1. [提交Issue](链接) 说明数据源信息和推荐理由
 2. 我们会评估其权威性、数据质量和可信度
 3. 通过评估后，将正式收录到数据源仓库
 
@@ -998,6 +1004,25 @@ code --add-mcp '{"name":"firstdata","type":"streamable-http","url":"https://firs
 - ✅ 国际组织官方数据
 - ✅ 顶级学术机构和研究仓库
 - ✅ 定期更新的权威行业数据
+
+## 💬 Community and Support | 社区与支持
+
+加入我们的社区，与数据研究者、开发者和贡献者交流！
+
+**Join our community to connect with data researchers, developers, and contributors!**
+
+### 微信交流群 | WeChat Group
+
+<div align="center">
+  <img src="assets/wechat-qrcode.png" alt="WeChat Group QR Code" width="300"/>
+  <p><i>扫描二维码加入微信群 | Scan to join WeChat group</i></p>
+</div>
+
+> 💡 **提示**: 加入社区后，你可以：
+> - 讨论数据源推荐和使用经验
+> - 获取技术支持和最佳实践
+> - 参与项目开发和贡献
+> - 了解最新的数据源更新和功能发布
 
 ## 📄 许可协议
 

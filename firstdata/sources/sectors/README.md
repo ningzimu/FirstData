@@ -425,9 +425,11 @@ sectors/
 └── README.md
 ```
 
+**总计**: 16个数据源
 
 **说明**:
 - 目录结构按照 ISIC Rev.4 分类标准组织
+- 所有文件已迁移至标准ISIC目录结构
 
 ---
 
@@ -452,6 +454,9 @@ sectors/
 - ✅ 开放社区和众包数据平台
 - ✅ 行业协会和专业机构数据
 - ✅ 市场研究与咨询公司数据
+- ❌ 政府官方数据（见 [countries.md](../../tasks/countries.md) 和 [china/](../china/)）
+- ❌ 国际组织数据（见 [international.md](../../tasks/international.md)）
+- ❌ 纯学术科研数据（见 [academic.md](../../tasks/academic.md)）
 
 **与其他分类的关系**：
 - `academic/` - 学术研究数据源（生命科学、化学、物理等）
@@ -476,3 +481,5 @@ sectors/
 - 学术数据源可能需要学术机构认证
 - 部分数据源有使用许可和限制
 - 引用数据时需遵守版权和归属要求
+
+---
